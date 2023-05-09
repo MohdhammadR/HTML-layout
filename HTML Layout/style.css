@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: rgb(173, 10, 10);
+}
+.header img{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.website_name{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 32px;
+}
+.text_size{
+    position: absolute;
+    margin-left: 830px;
+    margin-top: 5px;
+    color: white;
+}
+.text_size a{
+    color: yellow;
+}
+#search{
+    padding: 2px 0px;
+}
+button{
+    padding: 2px 4px;
+    background: transparent;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+.search_bar{
+    position: absolute;
+    margin-left: 885px;
+    margin-top: 37px;
+}
+#nav_bar{
+    background-color: rgb(238, 228, 228);
+    border: 1px solid rgb(199, 196, 196);
+    height: 45px;
+    
+}
+#nav_bar table a{
+    text-decoration: none;
+    color: rgb(71, 69, 69);
+    font-weight: bold;
+}
+#nav_bar table tr td{
+    padding: 10px 30px;
+    border-right: 1px solid rgb(199, 196, 196);
+}
+#index_box{
+    border: 1px solid rgb(199, 196, 196);
+    background-color: rgb(238, 228, 228);
+    width: 230px;
+    display: inline-block;
+    margin: 30px;
+}
+#index_box li{
+    margin-left: 20px;
+    padding: 8px;
+    list-style: none;
+}
+#index_box li a{
+    color: rgb(173, 10, 10);
+}
+.content{
+    position: absolute;
+    margin-top: 30px;
+    width: 900px;
+}
+.content h2{
+    margin-bottom: 20px;
+    color: rgb(173, 10, 10);
+}
+.content h4{
+    margin-bottom: 15px;
+    color: rgb(173, 10, 10);
+}
+.content p{
+    margin-bottom: 15px;
+}
+.content ul, ol{
+    margin-bottom: 15px;
+    margin-left: 45px;
+}
+hr{
+    margin-bottom: 15px;
+}
+.content a{
+    color: rgb(173, 10, 10);     
+}
